@@ -11,7 +11,7 @@ import { ref } from "vue";
 import { APP_CONSTANTS } from "../common/constants/app";
 
 const leftDrawerOpen = ref(false);
-const user_name = ref("<Abdul Mueed Shahbaz />");
+const user_name = ref("<Syed Ali Haider Abedi />");
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
